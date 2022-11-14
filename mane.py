@@ -2,6 +2,21 @@ def main_function(a,b):
     s=a*b
     perim=2*(a+b)
     return s, perim
+    
+def test_function():
+    while True:
+        a = int(input("Введіть довжину однієї сторони прямокутника: "))
+        if a>0:
+            break
+        esle:
+        print("Сторона не може бути менше або дорівнювати 0")
+    while True:
+        b = int(input("Введіть довжину другої сторони прямокутника: "))
+        if b>0:
+            break
+        esle:
+        print("Сторона не може бути менше або дорівнювати 0")
+    return a,b
 
 print("Ця программа вираховує площу та периметр прямокутника")
 a=int(input("Введіть довжину однієї сторони прямокутника: "))
