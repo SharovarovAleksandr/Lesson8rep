@@ -40,6 +40,6 @@ print(f'Периметр = {d[1]}')
 #    d = main_function(a, b)
 #    print(f'Площа = {d[0]}')
 #    print(f'Периметр = {d[1]}')
->>>>>>> test
+
 
 
