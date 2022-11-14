@@ -19,7 +19,9 @@ def test_function_triangl():
             print("Катет трикутника не може бути менше або дорівнювати 0")
     return a,b
 
+#Тестовая програма для розміщення на github.com
 print("Ця программа вираховує площу та периметр прямокутньго трикутника за двома катетами")
+
 c=test_function_triangl()
 d=main_function_triangl(c[0],c[1])
 print(f'Площа трикутника= {d[0]}')
